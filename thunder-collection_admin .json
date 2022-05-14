@@ -1,0 +1,414 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "admin ",
+    "dateExported": "2022-03-05T02:10:51.797Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "containerId": "",
+            "sortNum": 10000,
+            "name": "get request",
+            "_id": "387e2508-3053-47cd-a1d9-8a9ca6a246b4",
+            "created": "2022-03-04T20:00:14.464Z"
+        },
+        {
+            "containerId": "",
+            "sortNum": 20000,
+            "name": "post request",
+            "_id": "85e86631-2bff-4158-b14d-a999fe564c1a",
+            "created": "2022-03-04T20:00:38.490Z"
+        }
+    ],
+    "requests": [
+        {
+            "containerId": "85e86631-2bff-4158-b14d-a999fe564c1a",
+            "sortNum": 10000,
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)"
+                }
+            ],
+            "colId": "0021a702-3265-41f5-be54-ce79b3f4f369",
+            "name": "register admin",
+            "url": "{{DOMAIN}}/admin/register",
+            "method": "POST",
+            "modified": "2022-03-04T23:49:58.484Z",
+            "created": "2022-03-03T17:43:31.073Z",
+            "_id": "3c3c7238-e3ee-414b-aa6d-d9181fbd9626",
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"name\":\"Dhrmuilf\",\n    \"email\": \"dcdpbariue8el@gmail.com\",\n    \"password\": \"Text@3210\",\n    \"mobile\": \"9876543217\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "containerId": "387e2508-3053-47cd-a1d9-8a9ca6a246b4",
+            "sortNum": 10000,
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)"
+                }
+            ],
+            "colId": "0021a702-3265-41f5-be54-ce79b3f4f369",
+            "name": "get admin",
+            "url": "{{DOMAIN}}/admin/me",
+            "method": "GET",
+            "modified": "2022-03-04T20:00:17.131Z",
+            "created": "2022-03-03T17:45:42.792Z",
+            "_id": "5c7dd507-167d-498a-a950-a0fa81748ede",
+            "params": [],
+            "tests": []
+        },
+        {
+            "containerId": "387e2508-3053-47cd-a1d9-8a9ca6a246b4",
+            "sortNum": 20000,
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)"
+                }
+            ],
+            "colId": "0021a702-3265-41f5-be54-ce79b3f4f369",
+            "name": "logout admin",
+            "url": "{{DOMAIN}}/admin/logout/me",
+            "method": "GET",
+            "modified": "2022-03-04T20:00:19.578Z",
+            "created": "2022-03-03T17:46:20.229Z",
+            "_id": "86876eac-aa54-432d-a01f-4a65527091d6",
+            "params": [],
+            "tests": []
+        },
+        {
+            "containerId": "85e86631-2bff-4158-b14d-a999fe564c1a",
+            "sortNum": 20000,
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)"
+                }
+            ],
+            "colId": "0021a702-3265-41f5-be54-ce79b3f4f369",
+            "name": "login admin",
+            "url": "{{DOMAIN}}/admin/login",
+            "method": "POST",
+            "modified": "2022-03-04T23:49:37.302Z",
+            "created": "2022-03-03T17:46:55.614Z",
+            "_id": "a4bd1004-cb35-4853-87c3-dd9642bd5936",
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"dcdpbariue8e@gmail.com\",\n    \"password\": \"Text@3210\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "containerId": "387e2508-3053-47cd-a1d9-8a9ca6a246b4",
+            "sortNum": 30000,
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)"
+                }
+            ],
+            "colId": "0021a702-3265-41f5-be54-ce79b3f4f369",
+            "name": "remove admin",
+            "url": "{{DOMAIN}}/admin/remove/me",
+            "method": "GET",
+            "modified": "2022-03-04T20:00:21.225Z",
+            "created": "2022-03-03T17:49:34.223Z",
+            "_id": "059355a6-26a9-4814-9bb8-9849926b4b81",
+            "params": [],
+            "tests": []
+        },
+        {
+            "containerId": "85e86631-2bff-4158-b14d-a999fe564c1a",
+            "sortNum": 30000,
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)"
+                }
+            ],
+            "colId": "0021a702-3265-41f5-be54-ce79b3f4f369",
+            "name": "change admin",
+            "url": "{{DOMAIN}}/admin/change/me",
+            "method": "POST",
+            "modified": "2022-03-05T02:08:03.862Z",
+            "created": "2022-03-03T17:48:17.406Z",
+            "_id": "1c1e3f68-b8b0-4f2d-8d68-3a76ceee2729",
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"mobile\": \"9876543298\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "containerId": "85e86631-2bff-4158-b14d-a999fe564c1a",
+            "sortNum": 40000,
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)"
+                }
+            ],
+            "colId": "0021a702-3265-41f5-be54-ce79b3f4f369",
+            "name": "delete customer by admin",
+            "url": "{{DOMAIN}}/admin/customers/remove",
+            "method": "POST",
+            "modified": "2022-03-04T23:30:46.402Z",
+            "created": "2022-03-03T17:51:59.278Z",
+            "_id": "ce6374a3-0590-4c38-a053-95634ad720f3",
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"email\": \"fhygfhr@gmial.com\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "containerId": "387e2508-3053-47cd-a1d9-8a9ca6a246b4",
+            "sortNum": 40000,
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)"
+                }
+            ],
+            "colId": "0021a702-3265-41f5-be54-ce79b3f4f369",
+            "name": "get all customers",
+            "url": "{{DOMAIN}}/admin/customers",
+            "method": "GET",
+            "modified": "2022-03-04T20:00:22.994Z",
+            "created": "2022-03-03T17:50:39.357Z",
+            "_id": "f7b98221-1124-4ac8-9f5a-3d151b37fd09",
+            "params": [],
+            "tests": []
+        },
+        {
+            "containerId": "85e86631-2bff-4158-b14d-a999fe564c1a",
+            "sortNum": 50000,
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)"
+                }
+            ],
+            "colId": "0021a702-3265-41f5-be54-ce79b3f4f369",
+            "name": "delete restaurant by admin",
+            "url": "{{DOMAIN}}/admin/restaurants/remove",
+            "method": "POST",
+            "modified": "2022-03-04T23:02:07.779Z",
+            "created": "2022-03-03T18:01:57.287Z",
+            "_id": "19da77a3-3a2c-4d18-b60b-8e905c5222a5",
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"hjdeb25@gmail.com\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "containerId": "387e2508-3053-47cd-a1d9-8a9ca6a246b4",
+            "sortNum": 50000,
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)"
+                }
+            ],
+            "colId": "0021a702-3265-41f5-be54-ce79b3f4f369",
+            "name": "get all restaurants",
+            "url": "{{DOMAIN}}/admin/restaurants",
+            "method": "GET",
+            "modified": "2022-03-04T20:00:24.602Z",
+            "created": "2022-03-03T17:51:29.235Z",
+            "_id": "55909f4c-f4bd-4a8b-bea5-53f3d70b4187",
+            "params": [],
+            "tests": []
+        },
+        {
+            "containerId": "85e86631-2bff-4158-b14d-a999fe564c1a",
+            "sortNum": 60000,
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)"
+                }
+            ],
+            "colId": "0021a702-3265-41f5-be54-ce79b3f4f369",
+            "name": "add package",
+            "url": "{{DOMAIN}}/admin/package/add",
+            "method": "POST",
+            "modified": "2022-03-04T23:44:36.036Z",
+            "created": "2022-03-04T17:49:36.760Z",
+            "_id": "f3137c32-d209-4534-b6f8-a8b48749435c",
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"name\": \"basicyhu pljhanuty utyforever\",\n    \"discount\": 40.0,\n    \"price\": 5999,\n    \"month\": \"6\",\n    \"service\": \"provid ealltype ofser vices\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "containerId": "85e86631-2bff-4158-b14d-a999fe564c1a",
+            "sortNum": 70000,
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)"
+                }
+            ],
+            "colId": "0021a702-3265-41f5-be54-ce79b3f4f369",
+            "name": "update package",
+            "url": "{{DOMAIN}}/admin/package/update",
+            "method": "POST",
+            "modified": "2022-03-04T23:45:44.419Z",
+            "created": "2022-03-04T19:49:33.838Z",
+            "_id": "a92c40f8-b14a-4668-a828-cb505d713624",
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"id\": \"6222a458e0c892a935d54fcf\",\n    \"price\": \"8999\",\n    \"discount\": \"10\",\n    \"month\": \"6\",\n    \"password\": \"Text@3210\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "containerId": "85e86631-2bff-4158-b14d-a999fe564c1a",
+            "sortNum": 80000,
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)"
+                }
+            ],
+            "colId": "0021a702-3265-41f5-be54-ce79b3f4f369",
+            "name": "delete package",
+            "url": "{{DOMAIN}}/admin/package/remove",
+            "method": "POST",
+            "modified": "2022-03-04T23:50:52.876Z",
+            "created": "2022-03-04T19:56:46.156Z",
+            "_id": "a7bfc7fc-2f32-4f01-b476-8b93bc3be72b",
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"id\": \"6222a5c4758fe08bb42ab0ab\",\n    \"password\": \"Text@3210\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "containerId": "387e2508-3053-47cd-a1d9-8a9ca6a246b4",
+            "sortNum": 160000,
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)"
+                }
+            ],
+            "colId": "0021a702-3265-41f5-be54-ce79b3f4f369",
+            "name": "get all contacts (c&r)",
+            "url": "{{DOMAIN}}/admin/contacts",
+            "method": "GET",
+            "modified": "2022-03-04T20:20:44.651Z",
+            "created": "2022-03-04T20:19:34.568Z",
+            "_id": "5189fd30-4265-4e74-b186-5860fc95a64b",
+            "params": [],
+            "tests": []
+        },
+        {
+            "containerId": "85e86631-2bff-4158-b14d-a999fe564c1a",
+            "sortNum": 170000,
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)"
+                }
+            ],
+            "colId": "0021a702-3265-41f5-be54-ce79b3f4f369",
+            "name": "delete contact by email-id",
+            "url": "{{DOMAIN}}/admin/contacts/remove",
+            "method": "POST",
+            "modified": "2022-03-04T23:42:59.789Z",
+            "created": "2022-03-04T23:40:54.645Z",
+            "_id": "562eccca-7062-44c5-9b57-2f2745694648",
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"email\": \"hdfjhdjh69@gmail.com\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}

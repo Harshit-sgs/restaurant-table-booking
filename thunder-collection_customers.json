@@ -1,0 +1,205 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "customers",
+    "dateExported": "2022-03-05T02:11:10.285Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "containerId": "",
+            "sortNum": 10000,
+            "name": "get",
+            "_id": "bab47290-8ffb-4768-8e45-af35cacc46be",
+            "created": "2022-03-04T20:13:49.702Z"
+        },
+        {
+            "containerId": "",
+            "sortNum": 20000,
+            "name": "post",
+            "_id": "485cda17-84c2-48f8-957a-9e6d1f52e01f",
+            "created": "2022-03-04T20:14:02.707Z"
+        }
+    ],
+    "requests": [
+        {
+            "containerId": "485cda17-84c2-48f8-957a-9e6d1f52e01f",
+            "sortNum": 10000,
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)"
+                }
+            ],
+            "colId": "821bd115-d04d-41e1-91e9-51f77be834c4",
+            "name": "register customer",
+            "url": "{{DOMAIN}}/customer/register",
+            "method": "POST",
+            "modified": "2022-03-04T20:14:04.460Z",
+            "created": "2022-03-03T18:04:41.613Z",
+            "_id": "04f29660-8221-4a5a-a936-051d9cf362da",
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"name\": \"tyuijrgfkjhbn\",\n    \"email\": \"fhygfh@gmial.com\",\n    \"password\": \"TEdtsu_huh5uhdf\",\n    \"phoneNo\": \"9876543212\",\n    \"address\" : \"hygrfyrwegfyuiwer6gfyrwuiegf\",\n    \"city\": \"suraat\",\n    \"state\": \"tydfgyug\",\n    \"country\": \"uhgefju\",\n    \"postalCode\":\"765789\"\n    \n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "containerId": "bab47290-8ffb-4768-8e45-af35cacc46be",
+            "sortNum": 10000,
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)"
+                }
+            ],
+            "colId": "821bd115-d04d-41e1-91e9-51f77be834c4",
+            "name": "get customer",
+            "url": "{{DOMAIN}}/customer/me",
+            "method": "GET",
+            "modified": "2022-03-04T20:13:52.147Z",
+            "created": "2022-03-03T18:11:32.781Z",
+            "_id": "681b23a4-e07b-4119-b7b4-2c421601543a",
+            "params": [],
+            "tests": []
+        },
+        {
+            "containerId": "bab47290-8ffb-4768-8e45-af35cacc46be",
+            "sortNum": 20000,
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)"
+                }
+            ],
+            "colId": "821bd115-d04d-41e1-91e9-51f77be834c4",
+            "name": "logout customer",
+            "url": "{{DOMAIN}}/customer/logout/me",
+            "method": "GET",
+            "modified": "2022-03-04T20:13:53.533Z",
+            "created": "2022-03-03T18:12:22.338Z",
+            "_id": "0b83550a-47ae-4666-8910-688b546dad7e",
+            "params": [],
+            "tests": []
+        },
+        {
+            "containerId": "485cda17-84c2-48f8-957a-9e6d1f52e01f",
+            "sortNum": 20000,
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)"
+                }
+            ],
+            "colId": "821bd115-d04d-41e1-91e9-51f77be834c4",
+            "name": "login customer",
+            "url": "{{DOMAIN}}/customer/login",
+            "method": "POST",
+            "modified": "2022-03-04T20:14:05.572Z",
+            "created": "2022-03-03T18:12:55.785Z",
+            "_id": "84547ecd-bd54-41d3-bae2-b53ab65f2346",
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"fhygfh@gmial.com\",\n  \"password\": \"TEdtsu_huh5uhdf\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "containerId": "485cda17-84c2-48f8-957a-9e6d1f52e01f",
+            "sortNum": 30000,
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)"
+                }
+            ],
+            "colId": "821bd115-d04d-41e1-91e9-51f77be834c4",
+            "name": "change customer",
+            "url": "{{DOMAIN}}/customer/change/me",
+            "method": "POST",
+            "modified": "2022-03-04T20:14:06.788Z",
+            "created": "2022-03-03T18:15:14.323Z",
+            "_id": "366e7bff-54b9-4f50-9a62-435d85380f65",
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"name\": \"hwecdvfkhgdfkyujdwegf\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "containerId": "bab47290-8ffb-4768-8e45-af35cacc46be",
+            "sortNum": 30000,
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)"
+                }
+            ],
+            "colId": "821bd115-d04d-41e1-91e9-51f77be834c4",
+            "name": "remove customer",
+            "url": "{{DOMAIN}}/customer/remove/me",
+            "method": "GET",
+            "modified": "2022-03-04T20:13:56.100Z",
+            "created": "2022-03-03T18:19:50.423Z",
+            "_id": "f6589798-29e8-4d1c-ac83-638292ad3722",
+            "params": [],
+            "tests": []
+        },
+        {
+            "containerId": "485cda17-84c2-48f8-957a-9e6d1f52e01f",
+            "sortNum": 70000,
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)"
+                }
+            ],
+            "colId": "821bd115-d04d-41e1-91e9-51f77be834c4",
+            "name": "contact admin",
+            "url": "{{DOMAIN}}/customer/contacts",
+            "method": "POST",
+            "modified": "2022-03-04T20:30:59.344Z",
+            "created": "2022-03-04T20:16:29.970Z",
+            "_id": "c1580e9b-f743-4eec-81ef-934e7f324efe",
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"name\": \"Dhrumil\",\n    \"email\": \"dcdobariye6878@gmail.com\",\n    \"description\":\"jshgjbskjlgbhliskfjuh skjfgytuuyrnhsjuh sjfnhgksjuhg\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
